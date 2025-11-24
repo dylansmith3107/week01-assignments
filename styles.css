@@ -6,4 +6,169 @@
 
 body {
   background-color: lavender;
+  font-family: "Comic Sans MS";
+  text-align: center;
+}
+
+header {
+  background-color: crimson;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 70px;
+  position: sticky;
+  z-index: 1000;
+}
+
+#title-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 10px;
+  gap: 5px;
+  font-family: "Franklin Gothic Medium";
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.header-links p:hover {
+  text-decoration: underline;
+}
+
+.image-functions {
+  position: relative;
+  background-size: cover;
+  background-position: left;
+  height: 120vh;
+}
+
+#main-page-1 {
+  background-image: url(./images/spider-man-image-blue.webp);
+}
+
+.welcome {
+  position: absolute;
+  top: 40px;
+  left: 38px;
+  background-color: white;
+  padding: 8px;
+  width: 150px;
+  border: solid 2px black;
+  border-radius: 15px;
+}
+
+.about {
+  position: absolute;
+  background-color: lemonchiffon;
+  padding: 8px;
+  width: 260px;
+  height: 270px;
+  border: solid 2px black;
+  border-radius: 15px;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: 75px;
+  right: 190px;
+  align-items: center;
+}
+
+#about-btn {
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  width: 80px;
+  height: 40px;
+  opacity: 1;
+}
+
+#about-btn:hover {
+  background-color: white;
+  color: crimson;
+}
+
+#main-page-2 {
+  background-image: url(https://wallpapers.com/images/hd/spider-man-ps4-4k-qwscpkkx4fw0nm7k.jpg);
+}
+
+.purchase {
+  position: absolute;
+  background-color: lemonchiffon;
+  border: solid 2px black;
+  border-radius: 15px;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+  height: 200px;
+  align-items: center;
+  top: 120px;
+  left: 175px;
+}
+
+#purchase-btn {
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  width: 80px;
+  height: 40px;
+  opacity: 1;
+}
+
+#purchase-btn:hover {
+  background-color: white;
+  color: crimson;
+}
+
+footer {
+  background-color: crimson;
+  color: white;
+  height: 105px;
+  padding-top: 5px;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-top: 5px;
+  gap: 5px;
+}
+
+.x {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  gap: 5px;
+}
+
+footer p {
+  padding-left: 5px;
 }
